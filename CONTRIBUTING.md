@@ -2,6 +2,29 @@
 
 Thank you for your interest in contributing to the Awesome GitHub Copilot repository! We welcome contributions from the community to help expand our collection of custom instructions and prompts.
 
+## Prerequisites
+
+- Node.js 18 or higher
+- npm or bun package manager
+- Git
+
+## Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/awesome-copilot.git
+cd awesome-copilot
+
+# Install dependencies
+npm install
+
+# Run the build to generate README tables
+npm run build
+
+# Validate your changes
+npm run validate
+```
+
 ## How to Contribute
 
 ### Adding Instructions

@@ -1,10 +1,16 @@
-# 🤖 Awesome GitHub Copilot Customizations
-[![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot) [![GitHub contributors from allcontributors.org](https://img.shields.io/github/all-contributors/github/awesome-copilot?color=ee8449)](#contributors-)
+# Awesome GitHub Copilot Customizations
 
+[![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot) [![GitHub contributors from allcontributors.org](https://img.shields.io/github/all-contributors/github/awesome-copilot?color=ee8449)](#contributors-) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-A community created collection of custom agents, prompts, and instructions to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
+A community-created collection of custom agents, prompts, and instructions to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
 
-## 🚀 What is Awesome GitHub Copilot?
+## Quick Start
+
+1. **Browse the collection**: Explore [Agents](docs/README.agents.md), [Prompts](docs/README.prompts.md), [Instructions](docs/README.instructions.md), or [Skills](docs/README.skills.md)
+2. **Install via MCP Server**: Use our [MCP Server](#mcp-server) to search and install customizations directly
+3. **Or install manually**: Click the VS Code/VS Code Insiders install button for any item, or download files directly
+
+## What is Awesome GitHub Copilot?
 
 This repository provides a comprehensive toolkit for enhancing GitHub Copilot with specialized:
 
@@ -95,15 +101,20 @@ For AI coding agents working with this project, refer to [AGENTS.md](AGENTS.md) 
 3. Update the appropriate README tables
 4. Submit a pull request with a clear description
 
-## 📖 Repository Structure
+## Repository Structure
 
 ```plaintext
+awesome-copilot/
 ├── prompts/          # Task-specific prompts (.prompt.md)
 ├── instructions/     # Coding standards and best practices (.instructions.md)
 ├── agents/           # AI personas and specialized modes (.agent.md)
 ├── collections/      # Curated collections of related items (.collection.yml)
+├── skills/           # AI capabilities for specialized tasks
+├── docs/             # Generated documentation for each category
+├── eng/              # Build scripts and validation tools
 ├── scripts/          # Utility scripts for maintenance
-└── skills/           # AI capabilities for specialized tasks
+├── .github/          # GitHub Actions workflows and templates
+└── .schemas/         # JSON schemas for validation
 ```
 
 ## 📄 License
